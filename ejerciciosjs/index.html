@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios js</title>
+</head>
+<body>
+    <h1>Ejercicios Js</h1>
+    
+    <h2>Leer un número y mostrar si dicho número es o no par</h2>
+    <label for="numero">Ingresa un número:</label>
+    <input type="text" id="numero">
+    <button onclick="verificarPar()">Verificar</button>
+    <p id="resultado1"></p>
+
+    <h2>Leer un número y mostrar su tabla de multiplicar</h2>
+    <label for="numero2">Ingresa número:</label>
+    <input type="text" id="numero2">
+    <button onclick="mostrarTabla()">Calcular</button>
+    <p id="resultado2"></p>
+    
+    <h2>Leer dos números y realizar el producto mediante sumas</h2>
+    <label for="numero3">Ingresa el primer número:</label>
+    <input type="text" id="numero3">
+    <label for="numero4">Ingresa el segundo número:</label>
+    <input type="text" id="numero4">
+    <button onclick="productoSumas()">Calcular</button>
+    <p id="resultado3"></p>
+
+    <h2>Leer una secuencia de n números almacenarlos en un arreglo y mostrar la posición donde se encuentra el mayor valor leido</h2>
+    <label for="numeros">Introduce la secuencia de numeros separados por comas</label><br>
+    <input type="text" id="numeros" placeholder="Ejemplo: 1,2,3,4,5"><br><br>
+    <button onclick="encontrarMayor()">Encontrar Mayor</button>
+    <p id="resultado4"></p>
+
+    <h2>Dado dos vectores A y B de n elementos cada uno, obtener un arrego C donde la posicion i se almacene la suma de A[i]+B[i].</h2> 
+    <label for="vectorA">Introduce el vector A (separado por comas):</label><br>
+    <input type="text" id="vectorA" placeholder="Ejemplo: 1,2,3"><br>
+    <label for="vectorB">Introduce el vector B (separado por comas):</label><br>
+    <input type="text" id="vectorB" placeholder="Ejemplo: 4,5,6"><br><br>
+    <button onclick="sumarVectores()">Sumar Vectores</button>
+    <p id="resultado5"></p>
+
+    <h2>Calcular la media de una secuencia de números leidos y almacenados en un arreglo A mostrar dichos números en orden.</h2>
+    <label for="secuencia">Introduce una secuencia de números separados por una coma</label>
+    <input type="text" id="secuencia" placeholder="Ejemplo 1,2,3"><br><br>
+    <button onclick="media()">Calcular media</button>
+    <p id="resultado6"></p>
+
+    <h2>Dado una secuencia de número leído y almacenados en un arreglo A mostrar dichos números en orden</h2>
+    <label for="secuenciaOrden">Introduce una secuencia de números separados por comas.</label>
+    <input type="text" id="secuenciaOrden" placeholder="5,2,8,1,9"><br><br>
+    <button onclick="mostrarNumerosOrdenados()">Mostrar en Orden</button>
+    <p id="resultadoOrden"></p>
+
+    <h2>Dado una secuencia de textos proporcionados por el usuario visualizar: la longitud, en mayusculas, en minúsculas, cada uno de ellas.</h2>
+    <label for="secuenciaTextos">Introduce una secuencia de textos separados por comas:</label>
+    <input type="text" id="secuenciaTextos" placeholder="Ejemplo: hola,mundo,java"><br><br>
+    <button onclick="procesarTextos()">Procesar Textos</button>
+    <p id="resultadoTextos"></p>
+
+    <script src="ejercicios.js"></script> <!-- Aquí enlazamos el archivo .js -->
+
+</body>
+</html>
